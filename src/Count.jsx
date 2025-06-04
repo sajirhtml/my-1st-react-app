@@ -15,7 +15,7 @@ export default function Count(){
 
     const [count, setCount] = useState(0);
     return(
-        <div style={countStyle}>
+        <div style={countStyle} className="card">
             <h1>Count: {count}</h1>
             <button onClick={()=>adder(5)}>Add</button>
         </div>
